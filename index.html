@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Snake Game by Ainul Haq</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🐍 Neon Snake Game</h1>
+  <div id="score">Score: 0</div>
+  <canvas id="gameCanvas" width="600" height="400"></canvas>
+
+  <div class="controls">
+    <button onclick="startGame(8)">Easy</button>
+    <button onclick="startGame(12)">Medium</button>
+    <button onclick="startGame(18)">Hard</button>
+    <button onclick="pauseGame()">Pause</button>
+    <button onclick="resumeGame()">Resume</button>
+  </div>
+
+  <div class="game-over" id="gameOver">
+    <p>💀 Game Over!</p>
+    <p id="finalScore">Score: 0</p>
+    <button onclick="restartGame()">Play Again</button>
+  </div>
+
+  <footer>
+    <p>© 2025 Neon Snake Game. All Rights Reserved.</p>
+    <p>Developed & Created by <strong>Ainul Haq</strong></p>
+    <p>For educational and personal use only.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
