@@ -10,7 +10,7 @@
 A **modern Neon-themed Snake Game** built using **HTML, CSS, and JavaScript**.  
 Play the classic Snake 🐍 game in a glowing neon world with **difficulty levels, pause/resume, and score tracking**.  
 
-👉 **[🎮 Play Live Demo on Vercel](https://neon-snake-game-ainul.vercel.app/)**  
+👉 **[🎮 Play Live Demo on Vercel](https://snakegame-ainuldev.vercel.app/)**  
 
 ---
 
